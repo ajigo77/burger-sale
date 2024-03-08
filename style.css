@@ -1,0 +1,103 @@
+.card:hover {
+    border:1px solid #aeacac;
+    cursor: pointer;
+}
+
+.card img {
+    transition: .2s all;
+    position: relative;
+}
+
+.card img:hover {
+    filter: brightness(60%);
+}
+
+#scrollBtn {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    float: right;
+}
+  
+#scrollBtn:hover {
+    cursor: pointer;
+}
+
+#scrollBtn i {
+    display: flex;
+    position: absolute;
+    right: 12px;
+    bottom: 0px;
+}
+
+.footer {
+    display: flexbox;
+    width: 100%;
+    height: 500px;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: #6C757D;
+}
+
+.footer .row #ft:hover {
+    cursor: pointer;
+    color: #97a0a8;
+}
+
+.footer .link-icon a {
+    display: flex;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #6C757D;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+}
+
+/* .footer .link-icon a i:hover {
+    color: #97a0a8;
+    cursor: pointer;
+} */
+
+.footer .link-icon .fb:hover {
+    color: #0B60B0;
+}
+
+.footer .link-icon .yt:hover {
+    color: #f73f3f;
+}
+
+.footer .link-icon .tiktok:hover {
+    color: #FF3EA5;
+}
+
+.footer .link-icon .ig:hover {
+    color: #FF0000;
+}
+
+.footer .col #image {
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 8px;
+    background-position: cover;
+    cursor: pointer;
+}
